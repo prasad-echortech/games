@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(105, 94, 94);
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+
+}
+
+.piece {
+    height: 62.5px;
+    width: 62.5px;
+    text-align: center;
+    position: relative;
+}
+
+img {
+    height: 60px;
+    width: 48px;
+    position: relative;
+}
+
+.move {
+    height: 20px;
+    width: 20px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.turn {
+    position: absolute;
+    top: 10px;
+    font-size: 30px;
+    color: rgb(208, 255, 0);
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.num {
+    height: 62.5px;
+    width: 62.5px;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.alp {
+    height: 30.5px;
+    width: 62.5px;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.alp2 {
+    height: 30.5px;
+    width: 62.5px;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    ;
+}
